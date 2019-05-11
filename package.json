@@ -11,6 +11,7 @@
   "author": "Anderson Correia",
   "license": "ISC",
   "dependencies": {
+    "crossenv": "0.0.2-security",
     "sequelize": "^5.8.5"
   }
 }

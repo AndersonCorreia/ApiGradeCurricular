@@ -22,7 +22,10 @@ async function getDisciplinasSchema(conection){
         },
         Pre: { // array com os pre-requisitos da disciplina
             type: Sequelize.ARRAY,
-            required: true
+            required: true,
+            references: {
+                model: "disciplinas"
+            }
         },
         Pos: { // array com os pos-requisitos da disciplina
             type: Sequelize.ARRAY,
@@ -32,11 +35,11 @@ async function getDisciplinasSchema(conection){
             type: Sequelize.ARRAY,
             required: true
         },
-        Emend: {
+        Ementa: {
             type: Sequelize.TEXT,
         }
     },{
-        tableName: "TB_DISCIPLINAS",// nome da tabela existente no banco
+        tableName: "TB_DISCIPLINAS_ECOMP",// nome da tabela existente no banco
         freezeTableName: false, //manter as configurações do banco existente
         timestamps: false
     })

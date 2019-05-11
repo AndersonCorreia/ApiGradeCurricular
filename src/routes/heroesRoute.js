@@ -12,7 +12,7 @@ class HeroRoute extends baseRoute {
 
     list() {
         return {
-            path: "/heroes/{Type}",
+            path: "/heroes",
             method: "GET",
             config: {
                 tags: ["api"],
