@@ -1,0 +1,282 @@
+[
+    {
+        "Cod": "EXA 857",
+        "Name": "MI - Engenharia de software",
+        "CH": "60",
+        "Type": "1",
+        "Pre": [
+            "TEC 503",
+            "EXA 863",
+            "EXA 855",
+            "EXA 805",
+            "EXA 806"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 709",
+        "Name": "Probabilidade e Estatística I-E",
+        "CH": "60",
+        "Type": "3",
+        "Pre": [
+            "EXA 704"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "FIS 110",
+        "Name": "Física I",
+        "CH": "90",
+        "Type": "3",
+        "Pre": [
+            "EXA 704"
+        ],
+        "Pos": [],
+        "co": []
+    },
+    {
+        "Cod": "EXA 707",
+        "Name": "Cálculo de Funções de Várias variáveis",
+        "CH": "60",
+        "Type": "7",
+        "pre": [
+            "EXA 705"
+        ],
+        "pos": [],
+        "co": []
+    },
+    {
+        "Cod": "EXA 706",
+        "Name": "Equações Diferenciais I-E",
+        "CH": "60",
+        "Type": "3",
+        "pre": [
+            "EXA 705"
+        ],
+        "pos": [],
+        "co": []
+    },
+    {
+        "Cod": "EXA 705",
+        "Name": "Cálculo Diferencial e Integral II-E",
+        "CH": "60",
+        "Type": "3",
+        "pre": [
+            "EXA 704"
+        ],
+        "pos": [
+            "EXA 706",
+            "EXA 707"
+        ],
+        "co": []
+    },
+    {
+        "Cod": "TEC 503",
+        "Name": "Produção de textos técnicos e académicos",
+        "CH": "30",
+        "Type": "2",
+        "pre": [],
+        "pos": [
+            "EXA 857",
+            "EXA 863"
+        ],
+        "co": []
+    },
+    {
+        "Cod": "TEC 497",
+        "Name": "introdução a eletrónica",
+        "CH": "30",
+        "Type": "2",
+        "pre": [],
+        "pos": [],
+        "co": []
+    },
+    {
+        "Cod": "EXA 861",
+        "Name": "Introdução a engenharia de computação",
+        "CH": "30",
+        "Type": "2",
+        "pre": [],
+        "pos": [],
+        "co": []
+    },
+    {
+        "Cod": "EXA 829",
+        "Name": "Tópicos de formação Humanística B",
+        "CH": "60",
+        "Type": "2",
+        "pre": [],
+        "pos": [],
+        "co": []
+    },
+    {
+        "Cod": "EXA 704",
+        "Name": "Cálculo Diferencial e Intregral I-E",
+        "CH": "60",
+        "Type": "3",
+        "pre": [],
+        "pos": [
+            "EXA 705",
+            "FIS 110",
+            "EXA 709"
+        ],
+        "co": []
+    },
+    {
+        "Cod": "EXA 702",
+        "Name": "Álgebra Vetorial e Geometria Analitica",
+        "CH": "60",
+        "Type": "3",
+        "pre": [],
+        "pos": [],
+        "co": []
+    },
+    {
+        "Cod": "Algoritim",
+        "Name": "os e programação I",
+        "CH": "60",
+        "Type": "2",
+        "pre": [],
+        "pos": [],
+        "co": [
+            "EXA 854"
+        ]
+    },
+    {
+        "Cod": "﻿EXA 80",
+        "Name": "1",
+        "CH": "0",
+        "Type": "0",
+        "pre": [],
+        "pos": [],
+        "co": []
+    },
+    {
+        "Cod": "EXA 854",
+        "Name": "MI - Algoritimos",
+        "CH": "30",
+        "Type": "1",
+        "pre": [],
+        "pos": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 807",
+            "EXA 855"
+        ],
+        "co": [
+            "Algoritim"
+        ]
+    },
+    {
+        "Cod": "EXA 863",
+        "Name": "MI - Programação",
+        "CH": "60",
+        "Type": "1",
+        "pre": [
+            "TEC 503",
+            "EXA 854",
+            "EXA 801"
+        ],
+        "pos": [
+            "EXA 857"
+        ],
+        "co": [
+            "EXA 805",
+            "EXA 806",
+            "EXA 807",
+            "EXA 855"
+        ]
+    },
+    {
+        "Cod": "EXA 801",
+        "Name": "4",
+        "CH": "0",
+        "Type": "0",
+        "pre": [],
+        "pos": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 807",
+            "EXA 855"
+        ],
+        "co": []
+    },
+    {
+        "Cod": "EXA 805",
+        "Name": "Algoritimos e Programação II",
+        "CH": "30",
+        "Type": "2",
+        "pre": [
+            "EXA 854",
+            "EXA 801"
+        ],
+        "pos": [
+            "EXA 857"
+        ],
+        "co": [
+            "EXA 806",
+            "EXA 807",
+            "EXA 855",
+            "EXA 863"
+        ]
+    },
+    {
+        "Cod": "EXA 806",
+        "Name": "Estrutura de Dados",
+        "CH": "30",
+        "Type": "2",
+        "pre": [
+            "EXA 854",
+            "EXA 801"
+        ],
+        "pos": [
+            "EXA 857"
+        ],
+        "co": [
+            "EXA 863",
+            "EXA 807",
+            "EXA 855",
+            "EXA 805"
+        ]
+    },
+    {
+        "Cod": "EXA 807",
+        "Name": "Estruturas Discretas",
+        "CH": "60",
+        "Type": "2",
+        "pre": [
+            "EXA 854",
+            "EXA 801"
+        ],
+        "pos": [],
+        "co": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 855",
+            "EXA 806"
+        ]
+    },
+    {
+        "Cod": "EXA 855",
+        "Name": "Projeto de Sistemas",
+        "CH": "30",
+        "Type": "2",
+        "pre": [
+            "EXA 854",
+            "EXA 801"
+        ],
+        "pos": [
+            "EXA 857"
+        ],
+        "co": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 807"
+        ]
+    }
+]

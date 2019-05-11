@@ -1,0 +1,16 @@
+{
+  "name": "web-grade-curricular",
+  "version": "1.0.0",
+  "description": "Api para grade curricular do curso de Ecomp UEFS",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "cross-env NODE_ENV=prod node api.js",
+    "dev": "cross-env NODE_ENV=dev node ."
+  },
+  "author": "Anderson Correia",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^5.8.5"
+  }
+}
