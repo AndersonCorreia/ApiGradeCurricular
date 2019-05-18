@@ -173,7 +173,7 @@ const create = {
         try {
             const item = { Cod, Name, Ch, Type, Pre, Pos, Co, Ementa } = request.payload
             var id = _Db.create(item)
-            disciplinas = getList(await db.read({}, 0, 0, false))
+            disciplinas = getList(await _Db.read({}, 0, 0, false))
             return {
                 message: "disciplina cadastrada com sucesso",
                 _id: id
@@ -220,7 +220,7 @@ const update = {
             if (qtd == 0) {
                 throw new Error("Disciplina não encontrada")
             }
-            disciplinas = getList(await db.read({}, 0, 0, false))
+            disciplinas = getList(await _Db.read({}, 0, 0, false))
 
             return {
                 message: "disciplina cadastrada com sucesso",
