@@ -40,7 +40,7 @@ const list = {
             if (name) {
                 query.Name = name
             }
-            var list = _Db.read(query, skip, limit)
+            var list = await _Db.read(query, skip, limit)
             if (type) {
                 list = list.filter((item) => {
                     if (item.Type == type)
