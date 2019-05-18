@@ -25,12 +25,12 @@ const swaggerOptions = {
 const hapi = require("hapi")
 const Rotas = require("./routes/gradeCurricularRoutes")
 const DataBase = require("./DataBase/postgres/postgres")
-var Connection = DataBase.connect()
 var DisciplinasSchema = require("./DataBase/postgres/schemas/disciplinasSchema")
 
 
 async function main() {
 
+    var Connection = await DataBase.connect()
     DisciplinasSchema = await DisciplinasSchema(Connection)
     const app = new hapi.Server({ port: process.env.PORT })
     await app.register([Vision, Inert, { plugin: hapiSwagger, options: swaggerOptions }])
