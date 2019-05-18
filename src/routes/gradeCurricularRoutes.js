@@ -215,7 +215,7 @@ const update = {
         try {
             const item = { Cod, Name, Ch, Type, Pre, Pos, Co, Ementa } = request.payload
             const query = { Cod: request.params.Cod }
-            var qtd = _Db.update(query, item)
+            var qtd = await _Db.update(query, item)
 
             if (qtd == 0) {
                 throw new Error("Disciplina não encontrada")
@@ -224,7 +224,7 @@ const update = {
 
             return {
                 message: "disciplina cadastrada com sucesso",
-                qtd: qtd.toString() //quantidade de itens atualizados
+                qtd: qtd //quantidade de itens atualizados
             }
         }
         catch (error) {

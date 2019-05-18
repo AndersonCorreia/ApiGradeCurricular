@@ -38,7 +38,7 @@ class Postgres extends IDataBase {
         return array
     }
     async update(query, item) {
-        return (await this._schema.update(item, { where: query }) )[0]//posição 0 do array é a quantidade de itens alterados
+        return await this._schema.update(item, { where: query })
     }
     async delete(id) {
         return await this._schema.destroy({ where: { id } })
