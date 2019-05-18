@@ -12,7 +12,7 @@ class Postgres extends IDataBase {
         return datavalues.id
     }
     async read(query, skip = 0, limit = 10, pagination = true) {
-        var list = await this._schema.findAll({ where: {}, raw: true })
+        var list = await this._schema.findAll({ where: { Type:query.type }, raw: true })
         if (query.Name) {
             list = list.filter((item) => {//filtrar os itens que tem parte do nome procurado, não é case sensitive
                 return item.Name.toLowerCase().includes(query.Name.toLowerCase())
