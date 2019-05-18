@@ -15,10 +15,7 @@ class Postgres extends IDataBase {
         var list = await this._schema.findAll({ where: {}, raw: true })
         if (query.Name) {
             list = list.filter((item) => {//filtrar os itens que tem parte do nome procurado, não é case sensitive
-                if (item.Name.toLowerCase().includes(query.Name.toLowerCase())) {
-                    return true
-                }
-                return false
+                return item.Name.toLowerCase().includes(query.Name.toLowerCase())
             })
         }
         var array = []

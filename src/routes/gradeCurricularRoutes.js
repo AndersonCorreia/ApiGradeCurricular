@@ -43,9 +43,7 @@ const list = {
             var list = await _Db.read(query, skip, limit)
             if (type) {
                 list = list.filter((item) => {
-                    if (item.Type == type)
-                        return true
-                    return false
+                    return (item.Type == type)
                 })
             }
             return list
@@ -245,7 +243,7 @@ const update = {
 }
 async function setDataBase(db) {
     _Db = db
-    disciplinas = getList(await db.read({}))
+    disciplinas = await getList(await db.read({}))
 }
 
 function getRoutes() {
