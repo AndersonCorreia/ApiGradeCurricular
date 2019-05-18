@@ -200,10 +200,10 @@ const update = {
                 Cod: joi.string().required().min(6).max(7).description("codigo da disciplina")
             },
             payload: {
-                Cod: joi.string().required().min(6).max(7).description("codigo da disciplina"),
-                Name: joi.string().required().max(100).description("nome da disciplina"),
-                Ch: joi.number().integer().required().description("Carga horaria"),
-                Type: joi.number().integer().required().max(9).description("tipo da disciplina"),
+                Cod: joi.string().min(6).max(7).description("codigo da disciplina"),
+                Name: joi.string().max(100).description("nome da disciplina"),
+                Ch: joi.number().integer().description("Carga horaria"),
+                Type: joi.number().integer().max(9).description("tipo da disciplina"),
                 Pre: joi.array().description("pre-requisitos da diciplina"),
                 Pos: joi.array().description("posrequisitos da diciplina"),
                 Co: joi.array().description("co-requisitos da diciplina"),
