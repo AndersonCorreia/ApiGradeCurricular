@@ -217,7 +217,7 @@ const update = {
             const query = { Cod: request.params.Cod }
             var qtd = await _Db.update(query, item)
 
-            if (qtd == 0) {
+            if (qtd[0] == 0) {
                 throw new Error("Disciplina não encontrada")
             }
             disciplinas = getList(await _Db.read({}, 0, 0, false))
