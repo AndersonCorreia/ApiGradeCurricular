@@ -21,18 +21,15 @@ async function getDisciplinasSchema(conection){
             required: true
         },
         Pre: { // array com os pre-requisitos da disciplina
-            type: Sequelize.ARRAY,
-            required: true,
-            references: {
-                model: "disciplinas"
-            }
+            type: Sequelize.ARRAY(Sequelize.STRING),
+            required: true
         },
         Pos: { // array com os pos-requisitos da disciplina
-            type: Sequelize.ARRAY,
+            type: Sequelize.ARRAY(Sequelize.STRING),
             required: true
         },
         Co: { // array com os co-requisitos da disciplina
-            type: Sequelize.ARRAY,
+            type: Sequelize.ARRAY(Sequelize.STRING),
             required: true
         },
         Ementa: {
@@ -44,7 +41,7 @@ async function getDisciplinasSchema(conection){
         timestamps: false
     })
     await disciplinas.sync()//conectando ao banco
-    return Heroes
+    return disciplinas
 }
 
 module.exports = getDisciplinasSchema
