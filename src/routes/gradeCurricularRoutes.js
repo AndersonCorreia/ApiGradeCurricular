@@ -40,7 +40,7 @@ const list = {
             if (name) {
                 query.name = name
             }
-            var list = this._Db.read(query, skip, limit)
+            var list = _Db.read(query, skip, limit)
             if (type) {
                 list = list.filter((item) => {
                     if (item.Type == type)
@@ -179,7 +179,7 @@ const create = {
     handler: async (request) => {
         try {
             const item = { Cod, Name, Ch, Type, Pre, Pos, Co, Ementa } = request.payload
-            var id = this._Db.create(item)
+            var id = _Db.create(item)
             disciplinas = getList(await db.read({}))
             return {
                 message: "disciplina cadastrada com sucesso",
@@ -228,7 +228,7 @@ const update = {
                 throw new Error("Disciplina não encontrada")
             }
             disciplinas = getList(await db.read({}))
-            
+
             return {
                 message: "disciplina cadastrada com sucesso",
                 qtd: qtd //quantidade de itens atualizados
