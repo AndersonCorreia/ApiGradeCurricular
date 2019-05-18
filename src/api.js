@@ -42,11 +42,13 @@ async function main() {
         await app.start()
         console.log("servidor rodando na porta :", app.info.port, "\n e uri : ", app.info.uri)
         const d = loadDisciplinas()
-        console.log( (await app.inject({
-            method: "POST",
-            url: "/disciplinas",
-            payload: d[0]
-        })).result)
+        for (let i = 1; i < d.length; i++) {
+            await app.inject({
+                method: "POST",
+                url: "/disciplinas",
+                payload: d[i]
+            })
+        }
     }
     catch (error) {
         console.log(error)
