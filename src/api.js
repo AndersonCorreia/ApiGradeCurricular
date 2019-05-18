@@ -25,9 +25,9 @@ const swaggerOptions = {
 const hapi = require("hapi")
 const Rotas = require("./routes/gradeCurricularRoutes")
 const DataBase = require("./DataBase/postgres/postgres")
-var Connection// = DataBase.connect()
+var Connection = DataBase.connect()
 var DisciplinasSchema = require("./DataBase/postgres/schemas/disciplinasSchema")
-//DisciplinasSchema = DisciplinasSchema(Connection)
+DisciplinasSchema = DisciplinasSchema(Connection)
 
 async function main() {
 
