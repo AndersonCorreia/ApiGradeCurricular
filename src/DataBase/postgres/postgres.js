@@ -19,8 +19,11 @@ class Postgres extends IDataBase {
             })
         }
         var array = []
+        console.log(skip," l ",limit)
         limit = skip + limit
+        console.log(skip," l ",limit)
         for (let i = skip; i < limit; i++) {//realizando a paginação dos resultados
+            console.log(skip," l ",limit," | ", i)
             if (!list[i]) {
                 break
             }
