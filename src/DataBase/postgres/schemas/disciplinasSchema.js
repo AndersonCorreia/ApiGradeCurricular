@@ -44,7 +44,7 @@ async function getDisciplinasSchema(conection){
         timestamps: false
     })
     await disciplinas.sync()//conectando ao banco
-    return Heroes
+    return disciplinas
 }
 
 module.exports = getDisciplinasSchema
