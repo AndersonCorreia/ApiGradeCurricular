@@ -1,0 +1,19 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "teste",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "ApiGradeCurricular",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
