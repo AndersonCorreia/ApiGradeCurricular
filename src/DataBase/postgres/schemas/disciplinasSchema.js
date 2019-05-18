@@ -22,10 +22,7 @@ async function getDisciplinasSchema(conection){
         },
         Pre: { // array com os pre-requisitos da disciplina
             type: Sequelize.ARRAY(Sequelize.STRING),
-            required: true,
-            references: {
-                model: this
-            }
+            required: true
         },
         Pos: { // array com os pos-requisitos da disciplina
             type: Sequelize.ARRAY(Sequelize.STRING),
