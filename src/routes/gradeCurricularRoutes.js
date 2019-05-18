@@ -275,9 +275,9 @@ function encadear(File, item, property) {
 }
 
 async function getRequisitos(property, Cod) {
-    const Dis = await disciplinas.find((obj) => { return obj.Cod.toLowerCase() == Cod.toLowerCase() })
+    const Dis = disciplinas.find((obj) => { return obj.Cod.toLowerCase().includes(Cod.toLowerCase() ) })
     if (!Dis) {
-        throw new Error("disciplina não encontrada")
+        throw new Error("disciplina não encontrada", Dis)
     }
     var PreDis = {}
     await getRequisitosRecursive(PreDis, Dis, property)
