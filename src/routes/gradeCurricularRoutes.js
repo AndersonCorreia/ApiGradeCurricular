@@ -274,13 +274,13 @@ function encadear(File, item, property) {
     }
 }
 
-function getRequisitos(property, Cod) {
-    const Dis = disciplinas.find((obj) => { return obj.Cod.toLowerCase() == Cod.toLowerCase() })
+async function getRequisitos(property, Cod) {
+    const Dis = await disciplinas.find((obj) => { return obj.Cod.toLowerCase() == Cod.toLowerCase() })
     if (!Dis) {
         throw new Error("disciplina não encontrada")
     }
     var PreDis = {}
-    getRequisitosRecursive(PreDis, Dis, property)
+    await getRequisitosRecursive(PreDis, Dis, property)
     return PreDis
 }
 
