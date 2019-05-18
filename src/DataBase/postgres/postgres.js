@@ -11,24 +11,22 @@ class Postgres extends IDataBase {
         const datavalues = await this._schema.create(item)
         return datavalues.id
     }
-    async read(query, skip = 0, limit = 10) {
+    async read(query, skip = 0, limit = 10, pagination = true) {
         var list = await this._schema.findAll({ where: {}, raw: true })
         if (query.Name) {
             list = list.filter((item) => {//filtrar os itens que tem parte do nome procurado, não é case sensitive
                 return item.Name.toLowerCase().includes(query.Name.toLowerCase())
             })
         }
-        var array = []
-        console.log(skip," l ",limit)
-        limit = skip + limit
-        console.log(skip," l ",limit)
-        for (let i = skip; i < limit; i++) {//realizando a paginação dos resultados
-            if (!list[i]) {
-                break
+        if (pagination) {
+            var array = []
+            limit = skip + limit
+            for (let i = skip; i < limit; i++) {//realizando a paginação dos resultados
+                if (!list[i]) {
+                    break
+                }
+                array[i - skip] = list[i]
             }
-            console.log(skip," l ",limit," | ", i)
-            array[i - skip] = list[i]
-            console.log(skip," l ",limit," | ", i , " | ", array[i-skip])
         }
         return array
     }

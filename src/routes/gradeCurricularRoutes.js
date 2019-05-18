@@ -22,30 +22,25 @@ const list = {
             ", 5:" + tipos[4] + ", 6:" + tipos[5] + ", 7:" + tipos[6] + ", 8:" + tipos[7] + ", 9:" + tipos[8],
         validate: {
             failAction,
-            params: {
-                Type: joi.number().integer().optional().max(9).min(0).description("valor de 1 a 9").default(0)
-            },
             query: {
                 skip: joi.number().integer().default(0).description("resultados que são ignorados/pulados inicialmente"),
                 limit: joi.number().integer().default(10).description("limite de itens por resultado"),
-                name: joi.string().max(100).description("nome da disciplina")
+                name: joi.string().max(100).description("nome da disciplina"),
+                type: joi.number().integer().optional().max(9).min(0).description("valor de 1 a 9").default(0)
             }
         }
     },
     handler: async (request) => {
         try {
-            const { skip, limit, name } = request.query
-            const type = request.params.Type
+            const { skip, limit, name, type } = request.query
             var query = {}
             if (name) {
                 query.Name = name
             }
-            var list = await _Db.read(query, skip, limit)
             if (type) {
-                list = list.filter((item) => {
-                    return (item.Type == type)
-                })
+                query.Type = type
             }
+            var list = await _Db.read(query, skip, limit)
             return list
         }
         catch (error) {
@@ -178,7 +173,7 @@ const create = {
         try {
             const item = { Cod, Name, Ch, Type, Pre, Pos, Co, Ementa } = request.payload
             var id = _Db.create(item)
-            disciplinas = getList(await db.read({}))
+            disciplinas = getList(await db.read({}, 0, 0, false))
             return {
                 message: "disciplina cadastrada com sucesso",
                 _id: id
@@ -225,7 +220,7 @@ const update = {
             if (qtd == 0) {
                 throw new Error("Disciplina não encontrada")
             }
-            disciplinas = getList(await db.read({}))
+            disciplinas = getList(await db.read({}, 0, 0, false))
 
             return {
                 message: "disciplina cadastrada com sucesso",
@@ -243,7 +238,7 @@ const update = {
 }
 async function setDataBase(db) {
     _Db = db
-    disciplinas = await getList(await db.read({}))
+    disciplinas = getList(await db.read({}, 0, 0, false))
 }
 
 function getRoutes() {
@@ -275,7 +270,7 @@ function encadear(File, item, property) {
 }
 
 async function getRequisitos(property, Cod) {
-    const Dis = disciplinas.find((obj) => { return obj.Cod.toLowerCase().includes(Cod.toLowerCase() ) })
+    const Dis = disciplinas.find((obj) => { return obj.Cod.toLowerCase().includes(Cod.toLowerCase()) })
     if (!Dis) {
         throw new Error("disciplina não encontrada", Dis)
     }
