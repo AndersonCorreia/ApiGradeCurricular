@@ -284,6 +284,7 @@ function getRequisitosRecursive(list, disciplina, property) {
     list.Name = disciplina.Name
     list.Ch = disciplina.Ch
     list.Type = disciplina.Type
+    list.Ementa = disciplina.Ementa
     list[property] = new Array(disciplina[property].lenght)
     for (let index = 0; index < disciplina[property].length; index++) {
         list[property][index] = {}
