@@ -28,11 +28,11 @@ async function getDisciplinasSchema(conection){
             }
         },
         Pos: { // array com os pos-requisitos da disciplina
-            type: Sequelize.ARRAY,
+            type: Sequelize.ARRAY(Sequelize.STRING),
             required: true
         },
         Co: { // array com os co-requisitos da disciplina
-            type: Sequelize.ARRAY,
+            type: Sequelize.ARRAY(Sequelize.STRING),
             required: true
         },
         Ementa: {
