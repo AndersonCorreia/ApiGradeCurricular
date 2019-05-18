@@ -11,7 +11,7 @@
   "author": "Anderson Correia",
   "license": "ISC",
   "dependencies": {
-    "crossenv": "0.0.2-security",
+    "cross-env": "^5.2.0",
     "dotenv": "^8.0.0",
     "hapi": "^18.1.0",
     "hapi-swagger": "^9.4.2",
