@@ -224,7 +224,7 @@ const update = {
 
             return {
                 message: "disciplina cadastrada com sucesso",
-                qtd: qtd //quantidade de itens atualizados
+                qtd: qtd.toString() //quantidade de itens atualizados
             }
         }
         catch (error) {
