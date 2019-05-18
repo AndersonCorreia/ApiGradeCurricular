@@ -11,7 +11,7 @@ var _Db = {}
 var disciplinas
 
 const list = {
-    path: "/disciplinas/{Type}",
+    path: "/disciplinas",
     method: "GET",
     config: {
         tags: ["api"],
