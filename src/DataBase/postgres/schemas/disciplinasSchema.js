@@ -24,7 +24,7 @@ async function getDisciplinasSchema(conection){
             type: Sequelize.ARRAY(Sequelize.STRING),
             required: true,
             references: {
-                model: "disciplinas"
+                model: this
             }
         },
         Pos: { // array com os pos-requisitos da disciplina
