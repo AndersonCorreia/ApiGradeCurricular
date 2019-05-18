@@ -42,13 +42,11 @@ async function main() {
         await app.start()
         console.log("servidor rodando na porta :", app.info.port, "\n e uri : ", app.info.uri)
         const d = loadDisciplinas()
-        /*console.log( (await app.inject({
+        console.log( (await app.inject({
             method: "POST",
             url: "/disciplinas",
             payload: d[0]
         })).result)
-
-        app.stop({ timeout: 0 })*/
     }
     catch (error) {
         console.log(error)
@@ -60,16 +58,7 @@ main()
 function loadDisciplinas() {
     var FileDisciplinas = new readFileSync("src/DataBase/disciplinas.json")
     FileDisciplinas = JSON.parse(FileDisciplinas.toString())
-    /*FileDisciplinas.map((item) => {
-        encadear(FileDisciplinas, item, "pre")
-        encadear(FileDisciplinas, item, "pos")
-        encadear(FileDisciplinas, item, "co")
-    })*/
     return FileDisciplinas
 }
-function encadear(File, item, property) {
-    for (var i = 0; i < item[property].length; i++) {
-        item[property][i] = File.find((obj) => { return obj.Cod == item[property][i] })
-    }
-}
-const { readFileSync, writeFile } = require("fs")
+
+const { readFileSync } = require("fs")
