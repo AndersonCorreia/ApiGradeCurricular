@@ -247,13 +247,13 @@ function getRoutes() {
 module.exports = { setDataBase, getRoutes }
 
 /**
- * transformar o array com os dados em uma estrutura de Grafo, os valores dos array pre,pos,co
- * são substituidos da sequinte forma, as strings nos array`s que são Codigos de outras diciplinas são substituidas pelo objeto da
- * disciplina correspondente
- * 
- * Quando algum metodo que altera o banco de dados é executado este metodo é chamado novamente.
- * @param FileDisciplinas estrutura de dados completa que estava salva no banco de dados
- */
+Transformar o array com os dados em uma estrutura de Grafo, os valores dos array pre,pos,co
+são substituidos da sequinte forma, as strings nos array`s que são Codigos de outras diciplinas são substituidas pelo objeto da
+disciplina correspondente. Quando algum metodo que altera o banco de dados é executado este metodo é chamado novamente.
+
+@param FileDisciplinas estrutura de dados completa que estava salva no banco de dados
+ 
+**/
 function getList(FileDisciplinas) {
     FileDisciplinas.map((item) => {
         item.Type = tipos[item.Type - 1]

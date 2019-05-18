@@ -28,6 +28,9 @@ class Postgres extends IDataBase {
                 array[i - skip] = list[i]
             }
         }
+        else {
+            return list
+        }
         return array
     }
     async update(query, item) {
