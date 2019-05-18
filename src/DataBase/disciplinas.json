@@ -1,0 +1,1910 @@
+[
+    {
+        "Cod": "TEC 516",
+        "Name": "Coprojeto Hardware/Software",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 801",
+            "EXA 854",
+            "TEC 499"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 414",
+        "Name": "Introdução aos fenômenos de Transporte",
+        "Ch": "30",
+        "Type": "7",
+        "Pre": [
+            "EXA 706",
+            "FIS 110"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 413",
+        "Name": "Introdução a Mecanica dos Solidos",
+        "Ch": "30",
+        "Type": "7",
+        "Pre": [
+            "EXA 706",
+            "FIS 110"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "FIS 210",
+        "Name": "Física II",
+        "Ch": "90",
+        "Type": "7",
+        "Pre": [
+            "EXA 705"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "CIS 341",
+        "Name": "Organização,Sistemas e Métodos",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "CIS ???"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 507",
+        "Name": "Sistemas Distribuídos Avançados",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 409",
+            "TEC 502"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 440",
+        "Name": "Microprocessadores e Microcontroladores",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 402"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 511",
+        "Name": "Materiais de Aplicação em Tecnologia da Informação",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 417",
+            "Fis 410",
+            "TEC 500"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 469",
+        "Name": "Fundamentos de Robótica",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 702",
+            "EXA 703",
+            "EXA 706",
+            "FIS 110"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 510",
+        "Name": "EAD: Fundamentos e Práticas",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 409"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 509",
+        "Name": "Comunicações sem Fio",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "tec 512"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 508",
+        "Name": "Computação de Alto Desempenho",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 402",
+            "TEC 409",
+            "TEC 408"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 446",
+        "Name": "Automação do Projeto de Circuitos Integrados",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 402",
+            "TEC 498"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 471",
+        "Name": "Projeto de Redes de Computadores",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 502",
+            "TEC 409",
+            "TEC 408"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 470",
+        "Name": "Sistemas Embarcados",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 402",
+            "TEC 499"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 466",
+        "Name": "Controle Digital",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 703",
+            "TEC 501",
+            "TEC 412",
+            "TEC 443",
+            "TEC 467",
+            "TEC 468"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 465",
+        "Name": "Redes sem Fio e Mobilidade",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 502",
+            "TEC 409",
+            "TEC 408"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 463",
+        "Name": "Multimídia e Internet",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 502",
+            "TEC 409",
+            "TEC 408"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 458",
+        "Name": "Administração de Sistemas Heterogêneos",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 502",
+            "TEC 409",
+            "TEC 408"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 455",
+        "Name": "Sistemas Operacionais Distribuídos e de Redes",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 409",
+            "TEC 408"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 454",
+        "Name": "Sistemas operacionais Tolerantes a Falhas",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 709",
+            "TEC 402"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 453",
+        "Name": "Gerenciamento de Redes de Computadores",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 502",
+            "TEC 409",
+            "TEC 408"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 452",
+        "Name": "Avaliação de Desempenho de Sistemas",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 805",
+            "TEC 457"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 451",
+        "Name": "Segurança de Computadores e criptografia",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 709",
+            "EXA 806",
+            "EXA 807"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 450",
+        "Name": "Transmissão de Dados Multimidia",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 449"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 449",
+        "Name": "Tecnologias de Redes de Computadores",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 500",
+            "TEC 409",
+            "TEC 412"
+        ],
+        "Pos": [
+            "TEC 450"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 448",
+        "Name": "Sistemas de Tempo Real",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 408"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 447",
+        "Name": "Arquiteturas Avançadas de Computadores",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 402"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 445",
+        "Name": "Concepção de Circuitos Integrados",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 402",
+            "TEC 501"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 444",
+        "Name": "Automação Industrial",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 402"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 443",
+        "Name": "Instrumentação Industrial e Controle de Processos",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 402",
+            "TEC 500"
+        ],
+        "Pos": [
+            "TEC 466"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 442",
+        "Name": "Instrumentação Eletrónica",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 402",
+            "TEC 500"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 441",
+        "Name": "Eletrónica para Telecomunicações",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 500"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 439",
+        "Name": "Comunicações Digitais",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 513",
+            "TEC 457"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 438",
+        "Name": "Tratamento Digital de Sinais de Voz",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 513",
+            "TEC 457"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 437",
+        "Name": "Síntese de Áudio",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 436"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 436",
+        "Name": "Computação Sónica",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 805",
+            "TEC 402"
+        ],
+        "Pos": [
+            "TEC 437"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 435",
+        "Name": "Codificação e Compressão de Sinais e Imagens",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 513",
+            "TEC 457"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 434",
+        "Name": "Computação Visual",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 705",
+            "EXA 806"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 433",
+        "Name": "Formação e Visualização de Imagens Digitais",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "Fis 410",
+            "TEC 402"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 432",
+        "Name": "Animação por Computador",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 431"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 431",
+        "Name": "Computação Gráfica",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 702",
+            "EXA 805",
+            "EXA 806"
+        ],
+        "Pos": [
+            "TEC 432"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 907",
+        "Name": "Introduçao a Programacao Competitiva",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 806",
+            "EXA 807"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 906",
+        "Name": "Jogos Digitais",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 857",
+            "EXA 809",
+            "EXA 856"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 871",
+        "Name": "Arquitetura e Design de Software",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 857",
+            "EXA 805",
+            "EXA 856"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 870",
+        "Name": "Evolução e Manutenção de Software",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 857",
+            "EXA 805",
+            "EXA 856"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 866",
+        "Name": "Otimização não-Linear",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 706"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 865",
+        "Name": "Otimização Linear",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 703"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 864",
+        "Name": "Mineração de Dados",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 805",
+            "EXA 806",
+            "EXA 863"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 868",
+        "Name": "Inteligência Artificial não simbólica",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 705",
+            "EXA 805",
+            "EXA 806"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 867",
+        "Name": "Computação Evolutiva",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 805",
+            "EXA 806"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 852",
+        "Name": "Introdução a Ciência Cognitiva",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 851",
+        "Name": "Qualidade de Software",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 809"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 850",
+        "Name": "Interatividade na internet",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 844",
+            "TEC 409"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 849",
+        "Name": "Agentes em Inteligência Artificial",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 841"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 848",
+        "Name": "Sistemas Especialistas",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 841"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 847",
+        "Name": "Especificação de Sistemas",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 809"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 846",
+        "Name": "Informática na Educação",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 805"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 844",
+        "Name": "Programação para Redes",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 805",
+            "TEC 409"
+        ],
+        "Pos": [
+            "EXA 850"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 843",
+        "Name": "Programação Paralela",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 806"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 842",
+        "Name": "Programação Concorrente",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 841",
+        "Name": "Inteligência Artificial",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 806"
+        ],
+        "Pos": [
+            "EXA 848",
+            "EXA 849"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 840",
+        "Name": "Análise e Projeto de Sistemas II",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 856"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 839",
+        "Name": "Engenharia de Processos de Software",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 809"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 838",
+        "Name": "Sistemas de Informação inteligentes",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 810"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 837",
+        "Name": "Sistemas de informação",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 836",
+        "Name": "Padrs e Frameworks",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 855"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 835",
+        "Name": "Software Baseado em Componentes",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 809",
+            "TEC 409"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 834",
+        "Name": "Projeto de Interface de Usuário",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 805"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 833",
+        "Name": "Gerência de Projetos de Informática",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 809",
+            "EXA 856"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 831",
+        "Name": "Bancos de Dados Avançados",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 810"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 830",
+        "Name": "Arquitetura e Desempenho de Bancos de Dados",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 810"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 802",
+        "Name": "Lógica para computação",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 519",
+        "Name": "Trabalho de Conclusão de Curso II",
+        "Ch": "60",
+        "Type": "4",
+        "Pre": [
+            "TEC 518"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 518",
+        "Name": "Trabalho de Conclusão de Curso I",
+        "Ch": "60",
+        "Type": "4",
+        "Pre": [
+            "TEC 517"
+        ],
+        "Pos": [
+            "TEC 519"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 860",
+        "Name": "Empreendedorismo II",
+        "Ch": "90",
+        "Type": "6",
+        "Pre": [
+            "EXA 859"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 859",
+        "Name": "Empreendedorismo I",
+        "Ch": "60",
+        "Type": "6",
+        "Pre": [
+            "EXA 857",
+            "EXA 809",
+            "EXA 856",
+            "EXA 810",
+            "TEC 499",
+            "TEC 402"
+        ],
+        "Pos": [
+            "EXA 860"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 828",
+        "Name": "Estágio",
+        "Ch": "300",
+        "Type": "5",
+        "Pre": [],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "Fis 410",
+        "Name": "Física IV",
+        "Ch": "90",
+        "Type": "3",
+        "Pre": [
+            "FIS 310"
+        ],
+        "Pos": [
+            "TEC 433",
+            "TEC 511"
+        ],
+        "Co": [
+            "EXA 827"
+        ]
+    },
+    {
+        "Cod": "EXA 417",
+        "Name": "Qu匇ica Geral e de materiais",
+        "Ch": "45",
+        "Type": "3",
+        "Pre": [],
+        "Pos": [
+            "TEC 511"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 703",
+        "Name": "Álgebra Linear I-E",
+        "Ch": "60",
+        "Type": "3",
+        "Pre": [],
+        "Pos": [
+            "EXA 865",
+            "TEC 466",
+            "TEC 467",
+            "TEC 469"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 429",
+        "Name": "Tópicos de Formação Complementar",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 890",
+        "Name": "Ética em Computação",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 813",
+        "Name": "Análise E projeto de Algoritimos",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "EXA 705",
+            "EXA 807",
+            "EXA 806"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 499",
+        "Name": "MI - Sistemas Digitais",
+        "Ch": "60",
+        "Type": "1",
+        "Pre": [
+            "TEC 503",
+            "TEC 498",
+            "TEC 401"
+        ],
+        "Pos": [
+            "EXA 859",
+            "TEC 470",
+            "TEC 516"
+        ],
+        "Co": [
+            "TEC 402"
+        ]
+    },
+    {
+        "Cod": "TEC 513",
+        "Name": "MI - Processamento Digital de Sinais",
+        "Ch": "60",
+        "Type": "1",
+        "Pre": [
+            "TEC 503",
+            "TEC 412",
+            "TEC 401"
+        ],
+        "Pos": [
+            "TEC 435",
+            "TEC 438",
+            "TEC 439"
+        ],
+        "Co": [
+            "TEC 501"
+        ]
+    },
+    {
+        "Cod": "TEC 502",
+        "Name": "MI - Concorrência e Conectividade",
+        "Ch": "60",
+        "Type": "1",
+        "Pre": [
+            "TEC 503",
+            "EXA 863",
+            "EXA 805",
+            "EXA 806"
+        ],
+        "Pos": [
+            "TEC 453",
+            "TEC 458",
+            "TEC 463",
+            "TEC 465",
+            "TEC 471",
+            "TEC 507"
+        ],
+        "Co": [
+            "TEC 408",
+            "TEC 409"
+        ]
+    },
+    {
+        "Cod": "EXA 869",
+        "Name": "MI - Processadores de Linguagem de Programação",
+        "Ch": "60",
+        "Type": "1",
+        "Pre": [
+            "TEC 503",
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 858"
+        ],
+        "Pos": [],
+        "Co": [
+            "EXA 817"
+        ]
+    },
+    {
+        "Cod": "EXA 857",
+        "Name": "MI - Engenharia de software",
+        "Ch": "60",
+        "Type": "1",
+        "Pre": [
+            "TEC 503",
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 855"
+        ],
+        "Pos": [
+            "EXA 859",
+            "EXA 870",
+            "EXA 871",
+            "EXA 906"
+        ],
+        "Co": [
+            "EXA 809",
+            "EXA 810",
+            "EXA 856"
+        ]
+    },
+    {
+        "Cod": "EXA 709",
+        "Name": "Probabilidade e Estatística I-E",
+        "Ch": "60",
+        "Type": "3",
+        "Pre": [
+            "EXA 704"
+        ],
+        "Pos": [
+            "TEC 457",
+            "TEC 451",
+            "TEC 454"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "FIS 110",
+        "Name": "Física I",
+        "Ch": "90",
+        "Type": "3",
+        "Pre": [
+            "EXA 704"
+        ],
+        "Pos": [
+            "TEC 467",
+            "TEC 469",
+            "TEC 413",
+            "TEC 414"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 707",
+        "Name": "Cálculo de Funções de Várias variáveis",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 705"
+        ],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 706",
+        "Name": "Equações Diferenciais I-E",
+        "Ch": "60",
+        "Type": "3",
+        "Pre": [
+            "EXA 705"
+        ],
+        "Pos": [
+            "EXA 862",
+            "TEC 500",
+            "TEC 506",
+            "EXA 866",
+            "TEC 467",
+            "TEC 469",
+            "TEC 413",
+            "TEC 414"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 705",
+        "Name": "Cálculo Diferencial e Integral II-E",
+        "Ch": "60",
+        "Type": "3",
+        "Pre": [
+            "EXA 704"
+        ],
+        "Pos": [
+            "EXA 706",
+            "EXA 707",
+            "FIS 310",
+            "EXA 813",
+            "EXA 868",
+            "TEC 434",
+            "FIS 210"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 503",
+        "Name": "Produção de textos técnicos e acadêmicos",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [],
+        "Pos": [
+            "EXA 857",
+            "EXA 863",
+            "EXA 869",
+            "TEC 502",
+            "TEC 513",
+            "TEC 506",
+            "TEC 498",
+            "TEC 499"
+        ],
+        "Co": [
+            "TEC 501"
+        ]
+    },
+    {
+        "Cod": "TEC 497",
+        "Name": "introdução a eletrónica",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [],
+        "Pos": [
+            "TEC 500",
+            "TEC 506",
+            "TEC 401",
+            "TEC 498"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 861",
+        "Name": "Introdução a engenharia de computação",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 829",
+        "Name": "Tópicos de formação Humanística B",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [],
+        "Pos": [],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 704",
+        "Name": "Cálculo Diferencial e Intregral I-E",
+        "Ch": "60",
+        "Type": "3",
+        "Pre": [],
+        "Pos": [
+            "EXA 705",
+            "FIS 110",
+            "EXA 709"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 702",
+        "Name": "Álgebra Vetorial e Geometria Analitica",
+        "Ch": "60",
+        "Type": "3",
+        "Pre": [],
+        "Pos": [
+            "FIS 310",
+            "TEC 431",
+            "TEC 469"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 801",
+        "Name": "Algoritimos e programação I",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [],
+        "Pos": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 807",
+            "EXA 855",
+            "EXA 858",
+            "TEC 516"
+        ],
+        "Co": [
+            "EXA 854"
+        ]
+    },
+    {
+        "Cod": "EXA 854",
+        "Name": "MI - Algoritimos",
+        "Ch": "30",
+        "Type": "1",
+        "Pre": [],
+        "Pos": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 807",
+            "EXA 855",
+            "TEC 516"
+        ],
+        "Co": [
+            "EXA 801"
+        ]
+    },
+    {
+        "Cod": "EXA 863",
+        "Name": "MI - Programação",
+        "Ch": "60",
+        "Type": "1",
+        "Pre": [
+            "TEC 503",
+            "EXA 854",
+            "EXA 801"
+        ],
+        "Pos": [
+            "EXA 857",
+            "EXA 809",
+            "EXA 810",
+            "EXA 856",
+            "EXA 869",
+            "EXA 817",
+            "TEC 502",
+            "TEC 408",
+            "TEC 409",
+            "EXA 836",
+            "EXA 842",
+            "EXA 864"
+        ],
+        "Co": [
+            "EXA 805",
+            "EXA 806",
+            "EXA 807",
+            "EXA 855"
+        ]
+    },
+    {
+        "Cod": "EXA 805",
+        "Name": "Algoritimos e Programação II",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [
+            "EXA 854",
+            "EXA 801"
+        ],
+        "Pos": [
+            "EXA 857",
+            "EXA 809",
+            "EXA 810",
+            "EXA 856",
+            "EXA 869",
+            "EXA 817",
+            "TEC 502",
+            "TEC 408",
+            "TEC 409",
+            "EXA 834",
+            "EXA 836",
+            "EXA 842",
+            "EXA 844",
+            "EXA 846",
+            "EXA 867",
+            "EXA 868",
+            "EXA 864",
+            "EXA 870",
+            "EXA 871",
+            "TEC 431",
+            "TEC 436",
+            "TEC 452"
+        ],
+        "Co": [
+            "EXA 806",
+            "EXA 807",
+            "EXA 855",
+            "EXA 863"
+        ]
+    },
+    {
+        "Cod": "EXA 806",
+        "Name": "Estrutura de Dados",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [
+            "EXA 854",
+            "EXA 801"
+        ],
+        "Pos": [
+            "EXA 857",
+            "EXA 809",
+            "EXA 810",
+            "EXA 856",
+            "EXA 869",
+            "EXA 817",
+            "TEC 502",
+            "TEC 408",
+            "TEC 409",
+            "EXA 862",
+            "EXA 813",
+            "EXA 836",
+            "EXA 841",
+            "EXA 842",
+            "EXA 843",
+            "EXA 867",
+            "EXA 868",
+            "EXA 864",
+            "EXA 907",
+            "TEC 431",
+            "TEC 434",
+            "TEC 451"
+        ],
+        "Co": [
+            "EXA 863",
+            "EXA 807",
+            "EXA 855",
+            "EXA 805"
+        ]
+    },
+    {
+        "Cod": "EXA 807",
+        "Name": "Estruturas Discretas",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "EXA 854",
+            "EXA 801"
+        ],
+        "Pos": [
+            "EXA 813",
+            "EXA 907",
+            "TEC 451"
+        ],
+        "Co": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 855",
+            "EXA 806"
+        ]
+    },
+    {
+        "Cod": "EXA 855",
+        "Name": "Projeto de Sistemas",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [
+            "EXA 854",
+            "EXA 801"
+        ],
+        "Pos": [
+            "EXA 857",
+            "EXA 809",
+            "EXA 810",
+            "EXA 856",
+            "EXA 836"
+        ],
+        "Co": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 807"
+        ]
+    },
+    {
+        "Cod": "EXA 809",
+        "Name": "Engenharia de software",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 855"
+        ],
+        "Pos": [
+            "EXA 859",
+            "EXA 833",
+            "EXA 835",
+            "EXA 839",
+            "EXA 847",
+            "EXA 851",
+            "EXA 906"
+        ],
+        "Co": [
+            "EXA 810",
+            "EXA 856",
+            "EXA 857"
+        ]
+    },
+    {
+        "Cod": "EXA 810",
+        "Name": "Banco de Dados",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 855"
+        ],
+        "Pos": [
+            "EXA 859",
+            "EXA 830",
+            "EXA 831",
+            "EXA 838"
+        ],
+        "Co": [
+            "EXA 856",
+            "EXA 809",
+            "EXA 857"
+        ]
+    },
+    {
+        "Cod": "EXA 856",
+        "Name": "Análise de Sistemas",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 855"
+        ],
+        "Pos": [
+            "EXA 859",
+            "EXA 833",
+            "EXA 840",
+            "EXA 870",
+            "EXA 871",
+            "EXA 906"
+        ],
+        "Co": [
+            "EXA 810",
+            "EXA 809",
+            "EXA 857"
+        ]
+    },
+    {
+        "Cod": "EXA 858",
+        "Name": "Aspectos Teóricos da Computação",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "EXA 801"
+        ],
+        "Pos": [
+            "EXA 869",
+            "EXA 817"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "EXA 817",
+        "Name": "Compiladores",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806",
+            "EXA 858"
+        ],
+        "Pos": [],
+        "Co": [
+            "EXA 869"
+        ]
+    },
+    {
+        "Cod": "TEC 408",
+        "Name": "Sistemas Operacionais",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806"
+        ],
+        "Pos": [
+            "TEC 448",
+            "TEC 453",
+            "TEC 455",
+            "TEC 458",
+            "TEC 463",
+            "TEC 465",
+            "TEC 471",
+            "TEC 508"
+        ],
+        "Co": [
+            "TEC 409",
+            "TEC 502"
+        ]
+    },
+    {
+        "Cod": "TEC 409",
+        "Name": "Redes de Computadores",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "EXA 863",
+            "EXA 805",
+            "EXA 806"
+        ],
+        "Pos": [
+            "EXA 835",
+            "EXA 844",
+            "EXA 850",
+            "TEC 449",
+            "TEC 453",
+            "TEC 455",
+            "TEC 458",
+            "TEC 463",
+            "TEC 465",
+            "TEC 471",
+            "TEC 508",
+            "TEC 510",
+            "TEC 507"
+        ],
+        "Co": [
+            "TEC 408",
+            "TEC 502"
+        ]
+    },
+    {
+        "Cod": "TEC 412",
+        "Name": "Sinais e Sistemas",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "EXA 862"
+        ],
+        "Pos": [
+            "TEC 513",
+            "TEC 501",
+            "TEC 430",
+            "TEC 457",
+            "TEC 449",
+            "TEC 466",
+            "tec 512"
+        ],
+        "Co": [
+            "TEC 500"
+        ]
+    },
+    {
+        "Cod": "EXA 862",
+        "Name": "Métodos Numéricos",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "EXA 706",
+            "EXA 806"
+        ],
+        "Pos": [
+            "TEC 412"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 500",
+        "Name": "Circuitos Elétricos e Eletrónicos",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "EXA 706",
+            "FIS 310",
+            "TEC 497"
+        ],
+        "Pos": [
+            "TEC 501",
+            "TEC 441",
+            "TEC 442",
+            "TEC 443",
+            "TEC 449",
+            "TEC 511"
+        ],
+        "Co": [
+            "TEC 506",
+            "TEC 412"
+        ]
+    },
+    {
+        "Cod": "FIS 310",
+        "Name": "Física III",
+        "Ch": "90",
+        "Type": "3",
+        "Pre": [
+            "EXA 705",
+            "EXA 702"
+        ],
+        "Pos": [
+            "TEC 500",
+            "TEC 506",
+            "Fis 410",
+            "TEC 467"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 506",
+        "Name": "MI - Projetos de Circuitos Eletrónicos",
+        "Ch": "60",
+        "Type": "1",
+        "Pre": [
+            "TEC 503",
+            "EXA 706",
+            "FIS 310",
+            "TEC 497"
+        ],
+        "Pos": [],
+        "Co": [
+            "TEC 500"
+        ]
+    },
+    {
+        "Cod": "TEC 401",
+        "Name": "Circuitos Digitais",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "TEC 497"
+        ],
+        "Pos": [
+            "TEC 513",
+            "TEC 501",
+            "TEC 430",
+            "TEC 499",
+            "TEC 402"
+        ],
+        "Co": [
+            "TEC 498"
+        ]
+    },
+    {
+        "Cod": "TEC 498",
+        "Name": "MI - Projeto de Circuitos Digitais",
+        "Ch": "30",
+        "Type": "1",
+        "Pre": [
+            "TEC 503",
+            "TEC 497"
+        ],
+        "Pos": [
+            "TEC 499",
+            "TEC 402",
+            "TEC 446"
+        ],
+        "Co": [
+            "TEC 401"
+        ]
+    },
+    {
+        "Cod": "TEC 501",
+        "Name": "Eletrónica para Processamento Digital de Sinais",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [
+            "TEC 412",
+            "TEC 401",
+            "TEC 500"
+        ],
+        "Pos": [
+            "TEC 445",
+            "TEC 466"
+        ],
+        "Co": [
+            "TEC 430",
+            "TEC 503",
+            "TEC 513"
+        ]
+    },
+    {
+        "Cod": "TEC 430",
+        "Name": "Processamento Digital de Sinais",
+        "Ch": "30",
+        "Type": "2",
+        "Pre": [
+            "TEC 412",
+            "TEC 401"
+        ],
+        "Pos": [],
+        "Co": [
+            "TEC 501"
+        ]
+    },
+    {
+        "Cod": "TEC 402",
+        "Name": "Arquitetura de Computadores",
+        "Ch": "60",
+        "Type": "2",
+        "Pre": [
+            "TEC 498",
+            "TEC 401"
+        ],
+        "Pos": [
+            "EXA 859",
+            "TEC 433",
+            "TEC 436",
+            "TEC 442",
+            "TEC 443",
+            "TEC 444",
+            "TEC 445",
+            "TEC 447",
+            "TEC 454",
+            "TEC 470",
+            "TEC 446",
+            "TEC 508",
+            "TEC 440"
+        ],
+        "Co": [
+            "TEC 499"
+        ]
+    },
+    {
+        "Cod": "EXA 827",
+        "Name": "Estágio em Tempo Integral",
+        "Ch": "480",
+        "Type": "5",
+        "Pre": [],
+        "Pos": [],
+        "Co": [
+            "Fis 410"
+        ]
+    },
+    {
+        "Cod": "TEC 517",
+        "Name": "Metodologia da Pesquisa e Desenvolvimento em Ecomp",
+        "Ch": "30",
+        "Type": "4",
+        "Pre": [],
+        "Pos": [
+            "TEC 518"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 457",
+        "Name": "Processos Estocásticos",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 709",
+            "TEC 412"
+        ],
+        "Pos": [
+            "TEC 435",
+            "TEC 438",
+            "TEC 439",
+            "TEC 452"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 467",
+        "Name": "Introdução a Sistemas de Controle",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "EXA 706",
+            "FIS 110",
+            "FIS 310",
+            "EXA 703"
+        ],
+        "Pos": [
+            "TEC 466",
+            "TEC 468"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "TEC 468",
+        "Name": "Sistemas de Controle I",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 467"
+        ],
+        "Pos": [
+            "TEC 466"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "tec 512",
+        "Name": "Principios de Telecomunicações",
+        "Ch": "60",
+        "Type": "7",
+        "Pre": [
+            "TEC 412"
+        ],
+        "Pos": [
+            "TEC 509"
+        ],
+        "Co": []
+    },
+    {
+        "Cod": "CIS ???",
+        "Name": "Qualquer disciplina introdutória a administração",
+        "Ch": "60",
+        "Type": "9",
+        "Pre": [],
+        "Pos": [
+            "CIS 341"
+        ],
+        "Co": []
+    }
+]

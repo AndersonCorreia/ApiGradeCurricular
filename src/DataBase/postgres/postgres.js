@@ -1,6 +1,6 @@
 const IDataBase = require("./../IDataBase.js")
 const Sequelize = require('sequelize')
-String.prototype.to
+
 class Postgres extends IDataBase {
     constructor(connection, schema) {
         super()
@@ -14,7 +14,7 @@ class Postgres extends IDataBase {
     async read(query, skip = 0, limit = 10) {
         var list = await this._schema.findAll({ where: {}, raw: true })
         if (query.name) {
-            list = list.filter((item) => {//mapear os itens que tem parte do nome procurado, não é case sensitive
+            list = list.filter((item) => {//filtrar os itens que tem parte do nome procurado, não é case sensitive
                 if (item.name.toLocaleLowerCase().includes(query.name.toLocaleLowerCase())) {
                     return true
                 }
@@ -23,7 +23,7 @@ class Postgres extends IDataBase {
         }
         var array = []
         limit = skip + limit
-        for (let i = skip; i < limit; i++) {
+        for (let i = skip; i < limit; i++) {//realizando a paginação dos resultados
             if (!list[i]) {
                 break
             }
@@ -31,8 +31,8 @@ class Postgres extends IDataBase {
         }
         return array
     }
-    async update(id, item) {
-        return await this._schema.update(item, { where: { id: id } })
+    async update(query, item) {
+        return await this._schema.update(item, { where: query })
     }
     async delete(id) {
         return await this._schema.destroy({ where: { id } })
@@ -49,7 +49,7 @@ class Postgres extends IDataBase {
     }
     static async connect() {
         const connection = await new Sequelize(process.env.POSTGRES_URL, {
-            quoteIdentifers: false, //não alterar as configurações padroes do banco
+            quoteIdentifers: false, //não alterar as configurações padrões do banco
             logging: false,
             ssl: process.env.SSL_DB
         })
