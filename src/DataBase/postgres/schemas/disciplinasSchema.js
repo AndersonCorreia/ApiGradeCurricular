@@ -21,7 +21,7 @@ async function getDisciplinasSchema(conection){
             required: true
         },
         Pre: { // array com os pre-requisitos da disciplina
-            type: Sequelize.ARRAY,
+            type: Sequelize.ARRAY(Sequelize.STRING),
             required: true,
             references: {
                 model: "disciplinas"
