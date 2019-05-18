@@ -36,9 +36,9 @@ const list = {
         try {
             const { skip, limit, name } = request.query
             const type = request.params.Type
-            const query = {}
+            var query = {}
             if (name) {
-                query.name = name
+                query.Name = name
             }
             var list = _Db.read(query, skip, limit)
             if (type) {

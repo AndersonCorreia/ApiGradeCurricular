@@ -41,14 +41,6 @@ async function main() {
         await app.route(Rotas.getRoutes())
         await app.start()
         console.log("servidor rodando na porta :", app.info.port, "\n e uri : ", app.info.uri)
-        const d = loadDisciplinas()
-        for (let i = 1; i < d.length; i++) {
-            await app.inject({
-                method: "POST",
-                url: "/disciplinas",
-                payload: d[i]
-            })
-        }
     }
     catch (error) {
         console.log(error)
@@ -56,7 +48,7 @@ async function main() {
     }
 }
 main()
-
+/* função usada anteriormente para adciona dados no banco
 function loadDisciplinas() {
     var FileDisciplinas = new readFileSync("src/DataBase/disciplinas.json")
     FileDisciplinas = JSON.parse(FileDisciplinas.toString())
@@ -64,3 +56,4 @@ function loadDisciplinas() {
 }
 
 const { readFileSync } = require("fs")
+*/
