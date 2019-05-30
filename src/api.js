@@ -41,19 +41,18 @@ async function main() {
         await app.route(Rotas.getRoutes())
         await app.start()
         console.log("servidor rodando na porta :", app.info.port, "\n e uri : ", app.info.uri)
-    }
-    catch (error) {
+    } catch (error) {
         console.log(error)
         app.stop({ timeout: 0 })
     }
 }
 main()
-/* função usada anteriormente para adciona dados no banco
-function loadDisciplinas() {
-    var FileDisciplinas = new readFileSync("src/DataBase/disciplinas.json")
-    FileDisciplinas = JSON.parse(FileDisciplinas.toString())
-    return FileDisciplinas
-}
+    /* função usada anteriormente para adciona dados no banco
+    function loadDisciplinas() {
+        var FileDisciplinas = new readFileSync("src/DataBase/disciplinas.json")
+        FileDisciplinas = JSON.parse(FileDisciplinas.toString())
+        return FileDisciplinas
+    }
 
-const { readFileSync } = require("fs")
-*/
+    const { readFileSync } = require("fs")
+    */

@@ -6,9 +6,27 @@ const failAction = (request, headers, error) => {
 
 const tipos = ["módulo intregador obrigatório", "Módulo Obrigatório", "Disciplina Obrigatória",
     "TCC", "Estágio", "Projeto Empreendedor", "Optativa Profissionalizante",
-    "Optativa de Formação Humanástica", "Optativa de Formação Complementar"]
+    "Optativa de Formação Humanástica", "Optativa de Formação Complementar"
+]
 var _Db = {}
 var disciplinas
+const { readFileSync } = require("fs")
+const inicio = {
+    path: "/",
+    method: "GET",
+    handler: async(request) => {
+        try {
+            const html = await new readFileSync("Color palette by Paletton.com.html")
+            return (html.toString())
+        } catch (error) {
+            console.log("error: ", error)
+            return {
+                message: "error interno no servidor, verifique a URL",
+                error: error.message
+            }
+        }
+    }
+}
 
 const list = {
     path: "/disciplinas",
@@ -30,7 +48,7 @@ const list = {
             }
         }
     },
-    handler: async (request) => {
+    handler: async(request) => {
         try {
             const { skip, limit, name, type } = request.query
             var query = {}
@@ -42,8 +60,7 @@ const list = {
             }
             var list = await _Db.read(query, skip, limit)
             return list
-        }
-        catch (error) {
+        } catch (error) {
             console.log("error: ", error)
             return {
                 message: "error interno no servidor, verifique a URL",
@@ -67,11 +84,10 @@ const listPre = {
             }
         }
     },
-    handler: async (request) => {
+    handler: async(request) => {
         try {
             return await getRequisitos("Pre", request.params.Cod)
-        }
-        catch (error) {
+        } catch (error) {
             console.log("error: ", error)
             return {
                 message: "error interno no servidor, verifique a URL",
@@ -95,11 +111,10 @@ const listPos = {
             }
         }
     },
-    handler: async (request) => {
+    handler: async(request) => {
         try {
             return await getRequisitos("Pos", request.params.Cod)
-        }
-        catch (error) {
+        } catch (error) {
             console.log("error: ", error)
             return {
                 message: "error interno no servidor, verifique a URL",
@@ -123,7 +138,7 @@ const listCo = {
             }
         }
     },
-    handler: async (request) => {
+    handler: async(request) => {
         try {
             const cod = request.params.Cod
             const Dis = await disciplinas.find((obj) => {
@@ -134,13 +149,12 @@ const listCo = {
             }
             var result = { Cod: Dis.Cod, Name: Dis.Name, Type: Dis.Type, Ch: Dis.Ch, Ementa: Dis.Ementa }
             result.Co = []
-            for (let i = 0; i < Dis.Co.length; i++) {//tirando o encadeamento circular da estrutura 
+            for (let i = 0; i < Dis.Co.length; i++) { //tirando o encadeamento circular da estrutura 
                 let c = Dis.Co[i]
                 result.Co[i] = { Cod: c.Cod, Name: c.Name, Type: c.Type, Ch: c.Ch, Ementa: c.Ementa }
             }
             return result
-        }
-        catch (error) {
+        } catch (error) {
             console.log("error: ", error)
             return {
                 message: "error interno no servidor, verifique a URL",
@@ -169,7 +183,7 @@ const create = {
             }
         }
     },
-    handler: async (request) => {
+    handler: async(request) => {
         try {
             const item = { Cod, Name, Ch, Type, Pre, Pos, Co, Ementa } = request.payload
             var id = _Db.create(item)
@@ -178,8 +192,7 @@ const create = {
                 message: "disciplina cadastrada com sucesso",
                 _id: id
             }
-        }
-        catch (error) {
+        } catch (error) {
             console.log("error: ", error)
             return {
                 message: "error interno no servidor, verifique a URL",
@@ -211,7 +224,7 @@ const update = {
             }
         }
     },
-    handler: async (request) => {
+    handler: async(request) => {
         try {
             const item = { Cod, Name, Ch, Type, Pre, Pos, Co, Ementa } = request.payload
             const query = { Cod: request.params.Cod }
@@ -226,12 +239,11 @@ const update = {
                 message: "disciplina cadastrada com sucesso",
                 qtd: qtd //quantidade de itens atualizados
             }
-        }
-        catch (error) {
+        } catch (error) {
             console.log("error: ", error)
             return {
                 message: "error interno no servidor, verifique a URL",
-                error: error
+                error: error.message()
             }
         }
     }
@@ -263,6 +275,7 @@ function getList(FileDisciplinas) {
     })
     return FileDisciplinas
 }
+
 function encadear(File, item, property) {
     for (var i = 0; i < item[property].length; i++) {
         item[property][i] = File.find((obj) => { return obj.Cod == item[property][i] })
